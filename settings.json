@@ -1,14 +1,14 @@
 {
-    "author": "",
+    "author": "FuzziCakz",
     "colors": {
-        "background": "http://i.imgur.com/GZKgCpk.png",
+        "background": "",
         "chat": {
             "admin": "",
             "ambassador": "",
             "bouncer": "",
             "cohost": "",
             "residentdj": "",
-            "host": "",
+            "host": "ff0000",
             "manager": ""
         },
         "footer": "",
