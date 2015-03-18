@@ -1,0 +1,41 @@
+{
+    "author": "",
+    "colors": {
+        "background": "http://i.imgur.com/GZKgCpk.png",
+        "chat": {
+            "admin": "",
+            "ambassador": "",
+            "bouncer": "",
+            "cohost": "",
+            "residentdj": "",
+            "host": "",
+            "manager": ""
+        },
+        "footer": "",
+        "header": ""
+    },
+    "css": {
+        "font": [],
+        "import": [],
+        "rule": {}
+    },
+    "images": {
+        "background": "http://i.imgur.com/GZKgCpk.png",
+        "booth": "",
+        "icons": {
+            "admin": "",
+            "ambassador": "",
+            "bouncer": "",
+            "cohost": "",
+            "residentdj": "",
+            "host": "",
+            "manager": ""
+        },
+        "playback": ""
+    },
+    "rules": {
+        "allowAutojoin": "true",
+        "allowAutorespond": "false",
+        "allowAutowoot": "true"
+    }
+}
