@@ -4,7 +4,7 @@ You can change the background of your community. Only you and users with PlugedC
 
 # How to do it
 1.) Copy this code: https://github.com/DDQ888/Plug.dj-Room-Settings-PlugCubed-/blob/master/settings.json
-2.) Go to http://www.rss.plugcubed.net/
+2.) Go to http://rss.plugcubed.net
 3.) Paste the code
 4.) Edit the code to your liking
 5.) Click "Save" when done.
