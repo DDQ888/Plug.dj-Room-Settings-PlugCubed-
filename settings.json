@@ -8,34 +8,71 @@
             "bouncer": "",
             "cohost": "",
             "residentdj": "",
-            "host": "ff0000",
+            "host": "FF0000",
             "manager": ""
         },
         "footer": "",
         "header": ""
     },
     "css": {
-        "font": [],
-        "import": [],
-        "rule": {}
+        "font": [
+        ],
+        "import": [
+        ],
+        "rule": {
+            "#chat .mention": {
+                "border": "1px solid #ac76ff",
+                "border-left": "0px !important",
+                "border-right": "0px !important",
+                "border-collapse": "collapse !important"
+            },
+            "#chat .mention.is-staff": {
+            },
+            "#chat .welcome": {               
+                "background": "linear-gradient(135deg, #009cdd 0,#0a0a0a 13%,#0a0a0a 100%)",
+                "border": "1px solid #009cdd",
+                "border-left": "0px !important",
+                "border-right": "0px !important",
+                "font-weight": "bold !important"
+            },
+            ".cm[data-cid^=\"3819806\"] .bdg": {
+                "background": "url('//beavisbot.phpmonkeys.com/images/icons/beavis_animated.gif') !important"
+            },
+            ".cm[data-cid^=\"3819806\"]": {
+                "background": "linear-gradient(135deg, #009cdd 0,#0a0a0a 13%,#0a0a0a 100%)"
+            },
+            ".cm[data-cid^=\"3819806\"]:nth-child(2n+1)": {
+                "background": "linear-gradient(135deg, #009cdd 0,#111317 13%,#111317 100%)"
+            },
+             ".cm.moderation": {
+                "background": "linear-gradient(135deg, #009cdd 0,#0a0a0a 13%,#0a0a0a 100%)"
+            },
+            ".cm.moderation": {
+                "background": "linear-gradient(135deg, #009cdd 0,#111317 13%,#111317 100%)"
+            },
+
+            "#chat .nxnotif": {
+                "border": "0 !important"
+            }
+        }
     },
     "images": {
-        "background": "http://i.imgur.com/GZKgCpk.png",
+        "background": "http://i.imgur.com/u36VR4n.png",
         "booth": "",
         "icons": {
             "admin": "",
             "ambassador": "",
-            "bouncer": "",
-            "cohost": "",
+            "bouncer": "https://dl.dropboxusercontent.com/s/eaksxrjalrscpnw/icone-bouncer2.png?dl=0",
+            "cohost": "https://dl.dropboxusercontent.com/s/bexu3bi16v7mbzm/icone-cohost2.png?dl=0",
             "residentdj": "",
-            "host": "",
-            "manager": ""
+            "host": "https://dl.dropboxusercontent.com/s/8atpymixx07zdwr/icone-host2.png?dl=0",
+            "manager": "https://dl.dropboxusercontent.com/s/4u1hyohcupsnl97/icone-manager2.png?dl=0"
         },
-        "playback": ""
+        "playback-container": ""
     },
     "rules": {
-        "allowAutojoin": "true",
         "allowAutorespond": "false",
-        "allowAutowoot": "true"
+        "allowAutowoot": "true",
+        "allowAutojoin": "false"
     }
 }
